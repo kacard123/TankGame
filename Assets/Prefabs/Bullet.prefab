@@ -128,3 +128,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   power: 15000
+  sound: {fileID: 8300000, guid: d93223439358e054da58349cc52e0597, type: 3}
+  exp: {fileID: 100000, guid: bf495eacf58e31146ab012aa89ac68da, type: 3}

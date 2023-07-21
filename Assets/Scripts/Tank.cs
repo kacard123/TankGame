@@ -52,7 +52,7 @@ public class Tank : MonoBehaviour
         ang.x = Mathf.Clamp(ang.x, -15, 5); // Value, Min, Max
         gun.transform.eulerAngles = ang;
 
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0)) // 총알 생성 
         {
             // Instantiate는 복제할때 사용하며 (생성할 오브젝트, 생성위치, 생성시 회전값)을 인자값으로 가진다
             GameObject bullet = Instantiate(bulletPrefab, spPoint.position, spPoint.rotation) as GameObject;
